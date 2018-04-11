@@ -1,0 +1,30 @@
+input{
+margin-right: 15px;
+}
+.todoList>li{
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 14px;
+    list-style: none;
+}
+.type{
+    color:blue;
+    font-weight: bold;
+    border-bottom:1px solid blue;
+}
+span{
+    display: inline-block;
+    margin-right: 5px;
+}
+.todoList{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.choose{
+    height: 50px;
+}
+.active{
+    color: red;
+    text-decoration: line-through
+}

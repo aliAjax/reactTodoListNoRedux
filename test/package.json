@@ -1,0 +1,20 @@
+"eslintConfig": {
+"parser": "babel-eslint",
+"extends": [
+"plugin:flowtype/recommended",
+"plugin:jsx-a11y/recommended"
+],
+"plugins": [
+"flowtype",
+"jsx-a11y"
+]
+}
+
+
+{
+loaders: [
+'style-loader',
+'css-loader?importLoader=1&modules&localIdentName=[path]___[name]__[local]___[hash:base64:5]'
+],
+test: /\.css$/
+},
